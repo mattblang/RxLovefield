@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "types": ["lf", "es6-promise"],
+    "files": [
+        "node_modules/@types/es6-promise/index.d.ts",
+        "node_modules/@types/lovefield/index.d.ts"
+    ]
+}

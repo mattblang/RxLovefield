@@ -1,3 +1,5 @@
+index.js
+lib/**/*.js
 
 # Created by https://www.gitignore.io/api/typings,node,visualstudiocode
 

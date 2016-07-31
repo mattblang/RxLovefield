@@ -2,7 +2,7 @@
   "name": "rxlovefield",
   "version": "0.0.1",
   "description": "RxJS bindings for Lovefield",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/mattblang/RxLovefield#readme",
   "dependencies": {
+    "@types/es6-promise": "0.0.28",
+    "@types/lovefield": "^2.0.27",
     "lovefield": "^2.1.9",
     "rxjs": "^5.0.0-beta.10"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.0"
   }
 }
